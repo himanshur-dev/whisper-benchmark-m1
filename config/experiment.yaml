@@ -1,0 +1,32 @@
+audio:
+  clips_dir: audio/clips
+  transcripts_dir: audio/transcripts
+
+noise:
+  gaussian:
+    snr_db: [0, 5, 10, 20, 40]
+  rir:
+    rt60: [0.2, 0.5, 1.0, 2.0]
+    room_dim: [6.0, 5.0, 3.0]
+
+preprocessing_pipelines:
+  - name: baseline
+    steps: []
+  - name: vad
+    steps: [vad]
+  - name: spectral
+    steps: [spectral_gate]
+  - name: rms
+    steps: [rms]
+
+models:
+  - openai/small
+  - mlx/small
+  - faster/small-int8
+  - distil/small
+
+results_dir: results
+
+dry_run: false
+
+seed: 42

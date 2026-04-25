@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+
+# Results and outputs
+results/raw/
+results/plots/
+results/summary.csv
+results/benchmark_run.log
+inspect_output/
+
+# Audio — source clips and transcripts are kept, raw download is not
+audio/librispeech/
+
+# macOS
+.DS_Store

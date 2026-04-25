@@ -1,0 +1,36 @@
+# Core ML
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.35.0
+openai-whisper
+faster-whisper
+
+# Apple Silicon only — install manually if on M1/M2:
+#   pip install mlx-whisper
+# mlx-whisper
+
+# Signal processing
+librosa
+soundfile
+scipy
+noisereduce
+pyroomacoustics
+deepfilternet
+
+# Preprocessing
+pyloudnorm
+silero-vad
+
+# Evaluation
+jiwer>=3.0.0
+
+# System metrics
+psutil
+
+# Config / data
+pyyaml
+pandas
+numpy
+
+# Visualization
+matplotlib

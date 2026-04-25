@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 --version)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/school/.pyenv/**)",
+      "Read(//usr/local/bin/**)",
+      "Bash(/opt/homebrew/bin/brew list *)",
+      "Bash(/opt/homebrew/bin/brew install *)",
+      "Bash(sudo chown *)",
+      "Bash(chmod u+w /opt/homebrew /opt/homebrew/bin)",
+      "Bash(curl -s https://pyenv.run)",
+      "Bash(bash)",
+      "Bash(.venv/bin/pip install *)",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(.venv/bin/pip show *)",
+      "Bash(.venv/bin/python -c \"from df.enhance import enhance, init_df; print\\('deepfilternet OK'\\)\")",
+      "Bash(.venv/bin/python -c \"import torchaudio; print\\(torchaudio.__version__\\); print\\(dir\\(torchaudio\\)\\)\")",
+      "Bash(.venv/bin/python -c \"import torchaudio; info = torchaudio.info\\('/dev/null'\\); print\\(type\\(info\\)\\)\")",
+      "Bash(.venv/bin/python scripts/prepare_audio.py --n-clips 8)",
+      "Bash(.venv/bin/python inspect_pipeline.py --clip audio/clips/1089-134686-0000.wav --noise gaussian --snr 10 --pipeline deepfilter --model openai/small)",
+      "Bash(.venv/bin/python run_benchmark.py --dry-run --models openai/tiny openai/small mlx/small faster/small-int8)",
+      "Bash(.venv/bin/python run_benchmark.py)",
+      "Bash(tee results/benchmark_run.log)"
+    ]
+  }
+}
