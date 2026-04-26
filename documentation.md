@@ -245,6 +245,56 @@ Both models show worse RTF than `openai/small` despite having similar or smaller
 
 ---
 
+### Noise × Preprocessing — Effect on WER (openai/small)
+
+All combinations of noise condition × preprocessing pipeline × clip were tested. The table below shows average WER across all three clips.
+
+| Noise | Baseline | VAD | Spectral | RMS | Best delta |
+|---|---|---|---|---|---|
+| Gaussian SNR=0 dB | 0.113 | 0.199 | 0.369 | 0.106 | −0.007 |
+| Gaussian SNR=5 dB | 0.033 | 0.038 | 0.094 | 0.031 | −0.002 |
+| Gaussian SNR=10 dB | 0.017 | 0.012 | 0.076 | 0.017 | −0.005 |
+| Gaussian SNR=20 dB | 0.014 | 0.012 | 0.021 | 0.017 | −0.002 |
+| Gaussian SNR=40 dB | 0.017 | 0.007 | 0.064 | 0.017 | −0.010 |
+| RIR RT60=0.2s | 0.014 | 0.012 | 0.118 | 0.014 | −0.002 |
+| RIR RT60=0.5s | 0.012 | 0.012 | 0.542 | 0.012 | 0.000 |
+| RIR RT60=1.0s | 0.227 | 0.364 | 0.968 | 0.227 | 0.000 |
+| RIR RT60=2.0s | 0.753 | 0.842 | 0.967 | **0.632** | **−0.121** |
+
+**Key findings:**
+
+- Whisper is largely robust to Gaussian noise at all SNR levels tested. Preprocessing provides at most marginal gains (< 1 percentage point) in the Gaussian noise conditions. This is consistent with Whisper's training on 680,000 hours of diverse internet audio, which included noisy recordings.
+- Spectral gating consistently degrades accuracy. On clean or lightly noisy audio it corrupts speech that had no noise to begin with. At RT60=0.5s it raises WER from 0.012 to 0.542. It should only ever be applied when there is strong stationary background noise.
+- VAD provides small improvements at moderate SNR but worsens results at high reverb (RT60=1.0–2.0s). Heavy reverberation causes the VAD model to misclassify reverb tails as speech and silence as non-speech, degrading the segmentation.
+- **RMS normalization is the only pipeline that shows a meaningful improvement: −12.1 percentage points at RT60=2.0s (0.753 → 0.632).** At extreme reverb, amplitude variation across the audio becomes severe and RMS normalisation stabilises the input level before Whisper's mel spectrogram computation.
+
+---
+
+### RMS Normalisation vs Room Size at RT60=2.0s
+
+The RMS improvement at RT60=2.0s was tested across four room sizes to determine whether the acoustic environment affects the result.
+
+| Room | Dimensions | Volume | Baseline WER | RMS WER | Improvement |
+|---|---|---|---|---|---|
+| small_office | 3×3×2.5m | 22 m³ | 0.566 | 0.529 | −0.037 |
+| medium_room | 6×5×3m | 90 m³ | 0.753 | 0.632 | −0.121 |
+| large_office | 10×8×4m | 320 m³ | 0.631 | 0.444 | **−0.187** |
+| lecture_hall | 15×12×5m | 900 m³ | 0.350 | 0.339 | −0.012 |
+
+RMS normalisation improved over baseline in every room. The largest gain was in the large_office (−18.7 percentage points). The lecture hall saw the smallest gain because its baseline WER is already the lowest.
+
+**Why baseline WER varies by room size at the same RT60:**
+
+Two acoustic mechanisms are at work:
+
+1. **Direct-to-reverberant ratio (DRR).** The source and microphone are placed at proportionally equivalent positions in each room. In the small office the source-mic distance is ~1.3m; in the lecture hall it is ~6.3m. Direct sound attenuates as 1/distance², while the reverberant field is roughly uniform throughout the room. A shorter source-mic distance means the direct speech signal is stronger relative to the reverb, improving intelligibility.
+
+2. **Reflection density.** For the same RT60, a larger room has a longer mean free path — the average distance sound travels between wall reflections. This means reflections arrive less frequently per unit time, creating a more spread-out reverb with less temporal smearing of phonemes. A smaller room packs far more reflections into the same time window, which is more damaging to ASR.
+
+The medium room sits in an awkward position: the source-mic distance is moderate (losing the DRR advantage of the small room) while the reflection density is high enough to cause severe speech smearing. This explains why it shows the worst baseline WER despite being neither the smallest nor the largest space.
+
+---
+
 ## References
 
 Panayotov, V., Chen, G., Povey, D., & Khudanpur, S. (2015). LibriSpeech: An ASR corpus based on public domain audio books. *2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 5206–5210. https://doi.org/10.1109/ICASSP.2015.7178964
