@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_0.2",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 0.2,
+  "pipeline": "vad",
+  "clip": "large",
+  "wer": 0.0141,
+  "cer": 0.0049,
+  "subs": 2,
+  "dels": 0,
+  "ins": 0,
+  "rtf": 0.1102,
+  "infer_s": 6.548,
+  "hypothesis": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick, peppered, flour-fattened sauce, stuffed it into you, his belly counseled him. After early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels. Hello, Bertie, any good in your mind? Number 10. Fresh Nelly is waiting on you. Good night, husband. The music came nearer and he recalled the words, the words of Shelley's fragment upon the moon wandering companionless, pale for weariness. The dull light fell more faintly upon the page, whereon another equation began to unfold itself slowly and to spread abroad its widening tale. A cold, lucid indifference reigned in his soul. The chaos in which his ardour extinguished itself was a cold, indifferent knowledge of himself.",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "peak_rss_mb": 1270.7,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 109.3,
+  "mean_cpu_pct": 53.4,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

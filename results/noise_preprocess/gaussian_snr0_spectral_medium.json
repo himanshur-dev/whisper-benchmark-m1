@@ -1,0 +1,23 @@
+{
+  "noise_label": "gaussian_snr0",
+  "noise_type": "gaussian",
+  "noise_snr_db": 0,
+  "noise_rt60": null,
+  "pipeline": "spectral",
+  "clip": "medium",
+  "wer": 0.4894,
+  "cer": 0.3381,
+  "subs": 6,
+  "dels": 10,
+  "ins": 7,
+  "rtf": 0.1358,
+  "infer_s": 2.741,
+  "hypothesis": "The music came nearer, and he recalled the words, the words of Shelley's fragment upon the knees and wanders, and times of us hailed for real in it. The dull light fell more faintly upon the cage, whereon another's equation began, and",
+  "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+  "peak_rss_mb": 866.1,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 99.7,
+  "mean_cpu_pct": 48.8,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

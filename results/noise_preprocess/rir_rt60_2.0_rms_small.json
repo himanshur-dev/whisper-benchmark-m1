@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_2.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 2.0,
+  "pipeline": "rms",
+  "clip": "small",
+  "wer": 0.5455,
+  "cer": 0.4828,
+  "subs": 6,
+  "dels": 0,
+  "ins": 0,
+  "rtf": 0.1845,
+  "infer_s": 0.962,
+  "hypothesis": "Number 10, Fresh W.A. from U.K. Good night, gentlemen.",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "peak_rss_mb": 1900.0,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 111.9,
+  "mean_cpu_pct": 58.6,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_2.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 2.0,
+  "pipeline": "vad",
+  "clip": "medium",
+  "wer": 0.6383,
+  "cer": 0.5252,
+  "subs": 15,
+  "dels": 14,
+  "ins": 1,
+  "rtf": 0.0917,
+  "infer_s": 1.851,
+  "hypothesis": "The music came nearer and you would call the words. The words of Shelley's practice on the table. The dull light fell while thinking there are none. And both of them spread along.",
+  "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+  "peak_rss_mb": 1824.9,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 105.8,
+  "mean_cpu_pct": 52.8,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

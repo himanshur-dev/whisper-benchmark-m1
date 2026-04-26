@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_2.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 2.0,
+  "pipeline": "spectral",
+  "clip": "large",
+  "wer": 0.9225,
+  "cer": 0.6989,
+  "subs": 84,
+  "dels": 47,
+  "ins": 0,
+  "rtf": 0.2073,
+  "infer_s": 12.317,
+  "hypothesis": "We both would be seated in the room of this church, with the data to the entire function, to the entire function, the entire function, the entire function, the entire function, the entire function, the entire function, and the whole function. And we really might have all of these to have just a life out of it, maybe there, in the small room, in the small room, in the small room. Oh, very good. Good. Good night. Have a great day. Freshly, I'll be great from you. Good night. Good night. Aw, so cool.",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "peak_rss_mb": 1889.3,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 103.6,
+  "mean_cpu_pct": 53.6,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

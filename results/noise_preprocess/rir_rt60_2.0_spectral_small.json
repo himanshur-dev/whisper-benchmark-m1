@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_2.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 2.0,
+  "pipeline": "spectral",
+  "clip": "small",
+  "wer": 1.0,
+  "cer": 0.7759,
+  "subs": 4,
+  "dels": 7,
+  "ins": 0,
+  "rtf": 1.4229,
+  "infer_s": 7.421,
+  "hypothesis": "Aftertaste information under fearurell",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "peak_rss_mb": 1940.3,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 104.4,
+  "mean_cpu_pct": 51.0,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

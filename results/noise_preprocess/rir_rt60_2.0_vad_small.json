@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_2.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 2.0,
+  "pipeline": "vad",
+  "clip": "small",
+  "wer": 0.9091,
+  "cer": 0.8276,
+  "subs": 4,
+  "dels": 6,
+  "ins": 0,
+  "rtf": 0.8704,
+  "infer_s": 4.539,
+  "hypothesis": "Now you're near fresh",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "peak_rss_mb": 1923.3,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 105.1,
+  "mean_cpu_pct": 50.2,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

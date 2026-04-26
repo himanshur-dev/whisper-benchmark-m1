@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_1.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 1.0,
+  "pipeline": "spectral",
+  "clip": "small",
+  "wer": 1.3636,
+  "cer": 0.8621,
+  "subs": 10,
+  "dels": 0,
+  "ins": 5,
+  "rtf": 0.9773,
+  "infer_s": 5.097,
+  "hypothesis": "That's All Well And We Will Say How Beautiful You And How Nice You Are",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "peak_rss_mb": 1241.8,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 105.0,
+  "mean_cpu_pct": 50.2,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

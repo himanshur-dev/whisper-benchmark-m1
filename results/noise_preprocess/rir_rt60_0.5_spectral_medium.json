@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_0.5",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 0.5,
+  "pipeline": "spectral",
+  "clip": "medium",
+  "wer": 0.4043,
+  "cer": 0.2122,
+  "subs": 10,
+  "dels": 1,
+  "ins": 8,
+  "rtf": 0.1243,
+  "infer_s": 2.51,
+  "hypothesis": "The music came nearer and he recalled the words, words of Shelley's fright that upon the evening ploddering and the endless of the table were rearing as the dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and to spread abroad his wife and the tale.",
+  "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+  "peak_rss_mb": 1135.1,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 106.2,
+  "mean_cpu_pct": 54.0,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

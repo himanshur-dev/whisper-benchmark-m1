@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_1.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 1.0,
+  "pipeline": "vad",
+  "clip": "medium",
+  "wer": 0.0638,
+  "cer": 0.0252,
+  "subs": 3,
+  "dels": 0,
+  "ins": 0,
+  "rtf": 0.1135,
+  "infer_s": 2.291,
+  "hypothesis": "The music came nearer as he recalled the words, the words of Shelley's fragment upon the moon, wandering, companionless, pale, for weariness. The dull light fell more faintly upon the page, whereon another equation began to unfold itself slowly, and to spread abroad its wide detail.",
+  "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+  "peak_rss_mb": 1211.8,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 113.2,
+  "mean_cpu_pct": 54.5,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

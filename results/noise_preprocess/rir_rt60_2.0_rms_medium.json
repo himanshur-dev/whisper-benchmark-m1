@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_2.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 2.0,
+  "pipeline": "rms",
+  "clip": "medium",
+  "wer": 0.617,
+  "cer": 0.3561,
+  "subs": 24,
+  "dels": 0,
+  "ins": 5,
+  "rtf": 0.1108,
+  "infer_s": 2.237,
+  "hypothesis": "The music made me regret even calling the words, the words of Shelley's practice on moon and water, and the panelists' payable curiosity. The dull body felt a faint feeling on the page where on another equation began to fully focus itself slowly and to spread it all its wide contain.",
+  "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+  "peak_rss_mb": 1901.0,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 108.7,
+  "mean_cpu_pct": 58.4,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

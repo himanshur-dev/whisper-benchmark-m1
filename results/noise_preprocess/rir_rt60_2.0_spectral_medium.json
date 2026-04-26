@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_2.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 2.0,
+  "pipeline": "spectral",
+  "clip": "medium",
+  "wer": 0.9787,
+  "cer": 0.9532,
+  "subs": 2,
+  "dels": 44,
+  "ins": 0,
+  "rtf": 0.5448,
+  "infer_s": 10.999,
+  "hypothesis": "are using the",
+  "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+  "peak_rss_mb": 2000.2,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 104.2,
+  "mean_cpu_pct": 52.7,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

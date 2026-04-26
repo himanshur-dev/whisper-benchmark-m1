@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_2.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 2.0,
+  "pipeline": "rms",
+  "clip": "large",
+  "wer": 0.7324,
+  "cer": 0.4149,
+  "subs": 86,
+  "dels": 5,
+  "ins": 13,
+  "rtf": 0.1332,
+  "infer_s": 7.917,
+  "hypothesis": "He ultimately released the original, turned him into a carrot-scented, bruised potato-tip, and fattin'-fuckin' pieces of relayed, lousy, thick, ever-flout-flat sauce. Stubbity, his belly-combo-man. After the early nightfall, the apple-latch was light-up near the bay, or the squall of the corner of the raw forest. Hello, Bertie. Good-bye. Now, Bertie, fresh-n-l-e-f-a-t from you. Canach-a-scent. The music made me regret even the call to words. The words of Shelley's practice, on whom the water had been penniless, pale for fear of risk. The dull body felt a thinking on the page where our own other equation began to play full itself slowly, and to spread raw its white container. A cold, lucidly differece, it ran with itself. The chaos, which had harder to change itself, was coldly differece in knowledge of itself.",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "peak_rss_mb": 1890.9,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 106.0,
+  "mean_cpu_pct": 54.4,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

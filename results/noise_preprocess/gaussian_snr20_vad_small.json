@@ -1,0 +1,23 @@
+{
+  "noise_label": "gaussian_snr20",
+  "noise_type": "gaussian",
+  "noise_snr_db": 20,
+  "noise_rt60": null,
+  "pipeline": "vad",
+  "clip": "small",
+  "wer": 0.0,
+  "cer": 0.0,
+  "subs": 0,
+  "dels": 0,
+  "ins": 0,
+  "rtf": 0.198,
+  "infer_s": 1.033,
+  "hypothesis": "Number 10. Fresh Nelly is waiting on you. Good night, husband.",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "peak_rss_mb": 1168.3,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 106.9,
+  "mean_cpu_pct": 58.3,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

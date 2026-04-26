@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_1.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 1.0,
+  "pipeline": "rms",
+  "clip": "small",
+  "wer": 0.5455,
+  "cer": 0.3448,
+  "subs": 5,
+  "dels": 0,
+  "ins": 1,
+  "rtf": 0.1951,
+  "infer_s": 1.017,
+  "hypothesis": "Now for death, fresh and elvious wait on you, good night, husband.",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "peak_rss_mb": 1058.8,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 109.6,
+  "mean_cpu_pct": 61.1,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

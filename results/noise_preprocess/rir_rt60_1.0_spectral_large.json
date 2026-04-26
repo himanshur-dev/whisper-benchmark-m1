@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_1.0",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 1.0,
+  "pipeline": "spectral",
+  "clip": "large",
+  "wer": 0.838,
+  "cer": 0.5165,
+  "subs": 91,
+  "dels": 7,
+  "ins": 21,
+  "rtf": 0.1279,
+  "infer_s": 7.6,
+  "hypothesis": "He would be seen in the turnips, carrots, and foods, and potatoes, and fat and butter, and spices, and he lay in power, and thick and memory, and power, and fat and sauce, and stuff it into his belly and nose, and early nightfall, he'll land with life out of his there, and his swan, and gold, and bronze. Hello, Bertie. Good for life? Now, Bertie, fresh and healthy, as great fun you can ask him. When using the mirror, I keep all the words, words of Shelley's fight, and the modern and the mannishest, the table, and the weakness. The dull light felt more pain if you wanted to pay, and there were all enough information to handle one's own self, so we spread it wrong, and swine on it. Cold, lucid, dip, strength, and soul. The chaos, which is hard to consume, which itself will move with the thought of itself.",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "peak_rss_mb": 1056.6,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 108.4,
+  "mean_cpu_pct": 57.8,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

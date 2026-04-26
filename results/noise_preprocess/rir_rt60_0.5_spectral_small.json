@@ -1,0 +1,23 @@
+{
+  "noise_label": "rir_rt60_0.5",
+  "noise_type": "rir",
+  "noise_snr_db": null,
+  "noise_rt60": 0.5,
+  "pipeline": "spectral",
+  "clip": "small",
+  "wer": 0.7273,
+  "cer": 0.5172,
+  "subs": 6,
+  "dels": 0,
+  "ins": 2,
+  "rtf": 0.3277,
+  "infer_s": 1.709,
+  "hypothesis": "Now pretend the fresh melody is waiting on you for an actual sleep.",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "peak_rss_mb": 1081.2,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 105.9,
+  "mean_cpu_pct": 52.5,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}
