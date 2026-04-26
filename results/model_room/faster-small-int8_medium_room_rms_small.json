@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "medium_room",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.9091,
+  "cer": 0.6034,
+  "rtf": 0.442,
+  "infer_s": 2.305,
+  "hypothesis": "Number of death, freshly done and paid from you, goodnight, gentlemen.",
+  "peak_rss_mb": 1599.1,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 729.6,
+  "mean_cpu_pct": 391.9,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

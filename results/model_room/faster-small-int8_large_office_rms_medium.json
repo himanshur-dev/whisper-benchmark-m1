@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "large_office",
+  "pipeline": "rms",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.5319,
+  "cer": 0.2482,
+  "rtf": 0.1632,
+  "infer_s": 3.294,
+  "hypothesis": "The music came here, and you recall the words, the words of Shelley's fragment from whom the wandering companion dust paved the way for weirdness. The dull light fell profanely upon the page where all the other information began to unfold itself slowly, and to spread it wrong into a winding tale.",
+  "peak_rss_mb": 1568.8,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 682.1,
+  "mean_cpu_pct": 406.8,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

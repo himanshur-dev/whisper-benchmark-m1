@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "lecture_hall",
+  "pipeline": "baseline",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.5319,
+  "cer": 0.241,
+  "rtf": 0.1723,
+  "infer_s": 3.48,
+  "hypothesis": "The music came nearer as you recall the words, the words of Shelby Stratford on the moon wandering in the endless, pitiful weirdness. The dull light fell while fainting upon the page where all another equation began from fold itself slowly and to spread it wrong as wide as a tale.",
+  "peak_rss_mb": 1587.1,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 750.7,
+  "mean_cpu_pct": 413.6,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

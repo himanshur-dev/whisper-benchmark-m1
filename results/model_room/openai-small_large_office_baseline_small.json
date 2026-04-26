@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "large_office",
+  "pipeline": "baseline",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.7273,
+  "cer": 0.3966,
+  "rtf": 0.5,
+  "infer_s": 2.607,
+  "hypothesis": "Number 10, Freshen up and I'll be waiting for you. Good night, Mr.",
+  "peak_rss_mb": 586.6,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 110.7,
+  "mean_cpu_pct": 51.3,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

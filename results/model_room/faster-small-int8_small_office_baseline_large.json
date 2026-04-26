@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "small_office",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.669,
+  "cer": 0.4186,
+  "rtf": 0.1585,
+  "infer_s": 9.416,
+  "hypothesis": "He hoped there would be a super dinner, and turned into some carrot sandwiches, potatoes, and bad, hungry pieces to be laid out on a thick, buttery, fowl fat sauce. So did he, with his belly up to him. After burning the rancor, the old man stood right out of here and there, and swallowed forward with a brothel. Hello, very good to be calling to my name, not very tech, fresh, nutty cake on you. Connect with me, the music made me hear and recall the words. The words have shuddered the trackers from the room, while they compared us. Payable for your risk. The dull light fell upon a page where online information began to unfold itself slowly, and to spread the raw, twilight tale. A cold losing the difference in rancor itself. The chaos which has harder changed itself has a cold new different knowledge of itself.",
+  "peak_rss_mb": 1431.6,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 647.9,
+  "mean_cpu_pct": 410.9,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

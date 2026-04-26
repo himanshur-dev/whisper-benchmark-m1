@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "small_office",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.6479,
+  "cer": 0.3843,
+  "rtf": 0.289,
+  "infer_s": 17.176,
+  "hypothesis": "He hoped there would be super-diner, and turned into some carrot-scented potatoes, and bad-hunt pieces to be laid down and thick, but without that sauce, so did his belly after him. After burning rank all, the old man just lied out here and there, and swallowed a form of the brothel. Hello, very good, good-dry. Now, very tender, fresh, nutty, fake, on you. Connect the sound, the music, and the ear, and the call to words. The words have shone as tracking from the room, wandering, and panicked, as pale for your risk. The dull light fell off a faintly upon the page, where online information began to unfold itself slowly, and to spread the raw, as wide as the tale. A cold, losing difference in rank within itself. The chaos which is harder to change to self, is a cold, different knowledge of self.",
+  "peak_rss_mb": 4162.9,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 106.0,
+  "mean_cpu_pct": 63.2,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

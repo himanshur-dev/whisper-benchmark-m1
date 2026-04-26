@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "small_office",
+  "pipeline": "rms",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.7183,
+  "cer": 0.4247,
+  "rtf": 0.0275,
+  "infer_s": 1.636,
+  "hypothesis": "He hoped there would be soup in there, and turned into some carrot-scented potatoes, and bad-hunt pieces to be laid down and thick, but without that sauce, so did his belly after him. After early rank-all, the old man was light-eyed and hearing there, and swallowed forward with a brothel. Hello, very good to be calling to my name. Now, very tech, fresh and healthy to be on you. Connect us, and the music may be nearer and you can call the words. The words are shut and distracted from the room while you can pat us, pale for your risk. The dull white fellow, a faintly upon a page, whereon love information began to unfold itself slowly, and to spread the raw of his wife and tale. A cold, losing indifference in rank and in size. The chaos which is harder to change to self is a cold, indifference in knowledge of yourself.",
+  "peak_rss_mb": 672.5,
+  "peak_mps_mb": 908.2,
+  "peak_cpu_pct": 111.0,
+  "mean_cpu_pct": 70.9,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

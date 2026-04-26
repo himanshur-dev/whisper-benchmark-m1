@@ -1,0 +1,18 @@
+{
+  "model": "distil/small",
+  "room": "large_office",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.9091,
+  "cer": 0.8276,
+  "rtf": 0.152,
+  "infer_s": 0.793,
+  "hypothesis": "Thank you. Thank you.",
+  "peak_rss_mb": 615.3,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 108.1,
+  "mean_cpu_pct": 70.8,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

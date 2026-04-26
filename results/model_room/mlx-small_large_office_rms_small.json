@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "large_office",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 1.2727,
+  "cer": 1.3793,
+  "rtf": 0.5699,
+  "infer_s": 2.972,
+  "hypothesis": "Number 10, Tr arriba arriba arriba arriba arriba arriba arriba arriba arriba arriba arriba arriba Good night.",
+  "peak_rss_mb": 419.6,
+  "peak_mps_mb": 1338.6,
+  "peak_cpu_pct": 112.7,
+  "mean_cpu_pct": 84.8,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

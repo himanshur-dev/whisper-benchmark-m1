@@ -295,6 +295,49 @@ The medium room sits in an awkward position: the source-mic distance is moderate
 
 ---
 
+### All Models × Room Sizes — RT60=2.0s, Baseline vs RMS Normalization
+
+All four models were tested across all four room sizes at RT60=2.0s, comparing baseline (no preprocessing) against RMS normalization. WER is averaged across the three clips (small, medium, large).
+
+| Model | Room | Baseline WER | RMS WER | Delta |
+|---|---|---|---|---|
+| `openai/small` | small_office | 0.589 | 0.529 | −0.060 ✓ |
+| `openai/small` | medium_room | 0.753 | 0.632 | −0.121 ✓ |
+| `openai/small` | large_office | 0.601 | 0.535 | −0.065 ✓ |
+| `openai/small` | lecture_hall | 0.351 | 0.339 | −0.012 ✓ |
+| `mlx/small` | small_office | 0.578 | 0.529 | −0.049 ✓ |
+| `mlx/small` | medium_room | 0.662 | 0.653 | −0.009 ✓ |
+| `mlx/small` | large_office | 0.747 | 0.778 | +0.030 |
+| `mlx/small` | lecture_hall | 0.353 | 0.339 | −0.014 ✓ |
+| `faster/small-int8` | small_office | 0.618 | 0.570 | −0.047 ✓ |
+| `faster/small-int8` | medium_room | 0.624 | 0.734 | +0.110 |
+| `faster/small-int8` | large_office | 0.468 | 0.449 | −0.019 ✓ |
+| `faster/small-int8` | lecture_hall | 0.400 | 0.404 | +0.005 |
+| `distil/small` | small_office | 1.692 | 0.932 | −0.760 ✓ |
+| `distil/small` | medium_room | 1.467 | 0.932 | −0.534 ✓ |
+| `distil/small` | large_office | 0.937 | 0.958 | +0.021 |
+| `distil/small` | lecture_hall | 0.939 | 0.939 | 0.000 |
+
+**Average across all rooms and clips:**
+
+| Model | Avg Baseline WER | Avg RMS WER | Avg Delta |
+|---|---|---|---|
+| `distil/small` | 1.259 | 0.940 | **−0.318 ✓** |
+| `openai/small` | 0.573 | 0.509 | −0.065 ✓ |
+| `mlx/small` | 0.585 | 0.575 | −0.010 ✓ |
+| `faster/small-int8` | 0.527 | 0.540 | +0.012 |
+
+**Key findings:**
+
+RMS normalization improves over baseline for three of the four models. The effect size varies substantially:
+
+- **`distil/small`** shows the largest improvement — RMS reduces average WER by 0.318. In the small_office and medium_room, baseline WER exceeds 1.0 (more errors than reference words, caused by hallucination on reverberant audio), while RMS brings it down to ~0.93. The distilled model is significantly more sensitive to amplitude variation in reverberant conditions than the other models, likely because the distillation process compressed the model's robustness to input scaling.
+- **`openai/small`** improves consistently across all four rooms (−0.060 average). The benefit is largest in the medium_room (−0.121) and smallest in the lecture_hall (−0.012), consistent with the room size analysis above.
+- **`mlx/small`** shows small improvements in three rooms but is slightly hurt in the large_office (+0.030). The overall delta is near zero (−0.010), suggesting MLX's inference path handles amplitude variation differently.
+- **`faster/small-int8`** is the only model that RMS normalization does not reliably help (+0.012 average). It is hurt in the medium_room (+0.110) and shows near-zero effect elsewhere. CTranslate2's INT8 quantization pipeline normalises activations internally, which may make the model less sensitive to input amplitude scaling.
+
+---
+
 ## References
 
 Panayotov, V., Chen, G., Povey, D., & Khudanpur, S. (2015). LibriSpeech: An ASR corpus based on public domain audio books. *2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 5206–5210. https://doi.org/10.1109/ICASSP.2015.7178964

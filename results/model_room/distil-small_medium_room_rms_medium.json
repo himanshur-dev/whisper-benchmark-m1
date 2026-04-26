@@ -1,0 +1,18 @@
+{
+  "model": "distil/small",
+  "room": "medium_room",
+  "pipeline": "rms",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.9574,
+  "cer": 0.7626,
+  "rtf": 0.1388,
+  "infer_s": 2.803,
+  "hypothesis": "So, I'm going to and I'm and I'm So I'm going to see and I'm going and I'm going to and I'm",
+  "peak_rss_mb": 772.6,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 115.4,
+  "mean_cpu_pct": 57.1,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

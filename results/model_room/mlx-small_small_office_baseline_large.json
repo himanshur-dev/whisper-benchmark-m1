@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "small_office",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.6127,
+  "cer": 0.4015,
+  "rtf": 0.028,
+  "infer_s": 1.664,
+  "hypothesis": "He hoped there would be super-diner, and turned into some carrot-scented potatoes, and bad-hunt pieces to be laid down and thick, but without that sauce, so did his belly after him. After burning rank all, the old man just lied out here and there, and swallowed a form of the brothels. Oh, very good, good-dry. Now, very tight, fresh, nutty, thick on you. Good-natter-scented. The music made me hear and recall the words. The words of shell-descending thunder, lulling, and panicking, pale for your risk. The dull light fell off a faintly upon the page, whereon none of the information began to unfold itself slowly, and to spread the raw, twilight-painting. A cold, losing difference in rank within itself. The chaos which is harder to change to self is a cold, different knowledge of self.",
+  "peak_rss_mb": 732.6,
+  "peak_mps_mb": 898.5,
+  "peak_cpu_pct": 112.5,
+  "mean_cpu_pct": 71.2,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

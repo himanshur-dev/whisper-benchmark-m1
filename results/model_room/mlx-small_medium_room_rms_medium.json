@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "medium_room",
+  "pipeline": "rms",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.6596,
+  "cer": 0.3669,
+  "rtf": 0.0292,
+  "infer_s": 0.59,
+  "hypothesis": "The music made me regret even calling the words, the words of Shelley's practice on moon and water, and the panelists' payable, weird visits. The dull body felt a faint feeling on the page where on another equation began flowing both itself slowly and spread it all its wide contain.",
+  "peak_rss_mb": 643.5,
+  "peak_mps_mb": 564.1,
+  "peak_cpu_pct": 104.5,
+  "mean_cpu_pct": 74.2,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

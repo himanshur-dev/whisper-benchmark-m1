@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "medium_room",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.5455,
+  "cer": 0.4828,
+  "rtf": 0.0702,
+  "infer_s": 0.366,
+  "hypothesis": "Number 10, Fresh W.A. from U.K. Good night, gentlemen.",
+  "peak_rss_mb": 641.4,
+  "peak_mps_mb": 552.1,
+  "peak_cpu_pct": 113.2,
+  "mean_cpu_pct": 65.0,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "lecture_hall",
+  "pipeline": "baseline",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.1818,
+  "cer": 0.1379,
+  "rtf": 0.1868,
+  "infer_s": 0.974,
+  "hypothesis": "Number 10 Fresh Nelly is waiting for you. Good night, Josef.",
+  "peak_rss_mb": 694.7,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 97.1,
+  "mean_cpu_pct": 59.4,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

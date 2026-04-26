@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "lecture_hall",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.1818,
+  "cer": 0.1379,
+  "rtf": 0.0673,
+  "infer_s": 0.351,
+  "hypothesis": "Number 10 Fresh Nelly is waiting for you. Good night, Josef.",
+  "peak_rss_mb": 429.7,
+  "peak_mps_mb": 566.3,
+  "peak_cpu_pct": 108.2,
+  "mean_cpu_pct": 62.6,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "medium_room",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.6127,
+  "cer": 0.3647,
+  "rtf": 0.1716,
+  "infer_s": 10.198,
+  "hypothesis": "He ultimately, with his two-prisoner, turned him into some carrots and bruised potatoes, and fathomantly ceased to be laid out on the thick, ever-flouted-backed stalk, studded into his belly-and-crumpled head. After the early nightfall, the apple-land should light up near there, and swallow the corner of the brothels. Hello, Bertie. Good to come on in. Now, Bertie, fresh and healthy to take from you. Good afternoon. The music came nearer, as you recall the words. The words of Shelley's practice on whom the body had been penniless, pale, and furious. The dull body felt the thinking on the page, where on another equation began flowing forth itself slowly, and to spread it all its white on the table. A cold, lucid, indifference grained in itself. The chaos of which its partner changed itself with coldly different knowledge of itself.",
+  "peak_rss_mb": 1783.4,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 708.4,
+  "mean_cpu_pct": 411.2,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

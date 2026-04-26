@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "small_office",
+  "pipeline": "rms",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.5319,
+  "cer": 0.3165,
+  "rtf": 0.1593,
+  "infer_s": 3.216,
+  "hypothesis": "The music came nearer and it recalled the words, the words of Sheldon's tractors on the moon while he had us payable for your risk. The dull white felt a pain deep on the page where online information began to unfold itself slowly and to spread it all on its white container.",
+  "peak_rss_mb": 1466.0,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 771.8,
+  "mean_cpu_pct": 420.1,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

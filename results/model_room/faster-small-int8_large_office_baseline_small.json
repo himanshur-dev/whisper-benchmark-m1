@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "large_office",
+  "pipeline": "baseline",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.3636,
+  "cer": 0.2586,
+  "rtf": 0.4828,
+  "infer_s": 2.518,
+  "hypothesis": "Number 10, fresh Nellie is waiting for you. Good night, Mr. Nellie.",
+  "peak_rss_mb": 1573.1,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 723.0,
+  "mean_cpu_pct": 399.1,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

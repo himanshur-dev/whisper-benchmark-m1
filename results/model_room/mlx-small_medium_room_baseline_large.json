@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "medium_room",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.7324,
+  "cer": 0.4382,
+  "rtf": 0.0273,
+  "infer_s": 1.625,
+  "hypothesis": "He ultimately released the original, turned him into a carrot-scented bruised potato, and in fact, a lot of pieces to be laid out on the thick, ever-floured fat sauce. Stubbity, his belly comes again. After the early nightfall, the apple-landed white-hot beer bear swallows the corner of the raw forest. Hello, Bertie. Good morning. Now, Bertie, fresh and healthy, I've made from you. Can't ask him. The music made me regret even the call to words. The words of Shelley's practice on whom the water had been penniless, pale for fear of risk. The dull body felt a thinking on the page where our own other equation began to bring hope itself slowly and to spread raw its white container. A cold, lucidly diffused brain with itself. The chaos which had harder to change itself was coldly different from knowledge itself.",
+  "peak_rss_mb": 640.2,
+  "peak_mps_mb": 1185.5,
+  "peak_cpu_pct": 107.3,
+  "mean_cpu_pct": 73.6,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

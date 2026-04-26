@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "lecture_hall",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.3873,
+  "cer": 0.2191,
+  "rtf": 0.0274,
+  "infer_s": 1.629,
+  "hypothesis": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat. But pieces to be laid out of thick, peppered, flour-fattened sauce. Stucked into you, his belly comes to him. After early nightfall, the old lamp's light up near there, a squall of order of the brothels. Where's your good and lie? Number 10, fresh and elegant way from you. Connect us, then. The music came nearer, and you recall the words. The words of Sheldon's tractant on the moon, wandering and panicked, pale for weariness. The dull light fell for a faint thing upon the page, where all another equation began to unfold itself slowly, and to spread it wrong as wide like tail. A cold, lucid indifference, great in its soul. The chaos in which his monitoring exchange itself is a wholly different knowledge of itself.",
+  "peak_rss_mb": 437.7,
+  "peak_mps_mb": 1228.2,
+  "peak_cpu_pct": 109.7,
+  "mean_cpu_pct": 77.6,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

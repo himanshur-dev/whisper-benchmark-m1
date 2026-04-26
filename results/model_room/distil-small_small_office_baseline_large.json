@@ -1,0 +1,18 @@
+{
+  "model": "distil/small",
+  "room": "small_office",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.9366,
+  "cer": 0.8005,
+  "rtf": 0.1252,
+  "infer_s": 7.441,
+  "hypothesis": "and and you know So I'm going to have a lot and I'm going to have a lot and I'm going to. and of I'm going, I'm going to have a lot and a lot. So I'm going to have a lot and I'm going to have a lot and I'm going to be",
+  "peak_rss_mb": 813.7,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 108.1,
+  "mean_cpu_pct": 51.6,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "large_office",
+  "pipeline": "rms",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.5282,
+  "cer": 0.3084,
+  "rtf": 0.1189,
+  "infer_s": 7.067,
+  "hypothesis": "He hoped that when he stewed the burger, turned him some carrots and grooves of potatoes, and fat mutton pieces to be labeled out in thick, ever-thou-fat sauce, studded into his belly-contagion. After early nightfall, the ill-lanned light on the air had swallowed the quarter of the brothels. Where did he go in the light? Number 10, fresh-nilly-fake-un-yew, Connected with the night, the music came in a red-and-coupled words, the words of Sheldon's frightened convulnerate companion-muscels, paving for weirdness. The dull-light fell profanity upon the page where our own other innovation began to unfold itself slowly, and to spread it wrong as wide and fatally. A cold, lucidly diffrence reigned in his soul. The chaos in which his armor extinguished itself was a cold, different knowledge of itself.",
+  "peak_rss_mb": 719.4,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 111.0,
+  "mean_cpu_pct": 53.8,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

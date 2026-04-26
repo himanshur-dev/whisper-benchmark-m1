@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "large_office",
+  "pipeline": "rms",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.5319,
+  "cer": 0.2446,
+  "rtf": 0.1156,
+  "infer_s": 2.335,
+  "hypothesis": "The music came here and we recall the words, the words of Shelley's practice, on whom the wandering companion dust, paving for weirdness. The dull light fell profanely upon the page where all other information began to unfold itself slowly, and to spread it wrong into a wide and timid way.",
+  "peak_rss_mb": 679.9,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 116.0,
+  "mean_cpu_pct": 57.0,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

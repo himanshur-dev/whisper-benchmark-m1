@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "large_office",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.5423,
+  "cer": 0.3146,
+  "rtf": 0.1137,
+  "infer_s": 6.755,
+  "hypothesis": "He hoped that when he stewed the burger, turned him some carrots and grooves of potatoes, and fat mutton pieces to be labeled out in thick, ever-thou-fat sauce, studded into his belly-contagion. After early nightfall, the ill-lanned light on the air had swallowed the quarter of the brothels. Hello, where did you get the food in the wine? Number 10, fresh-nelly-flavored onion. Connected with the music, the music came in a red-and-red color. The words of Sheldon's frightened, common-blood-recompanied, paving for weirdness. The dull-light fell profanity upon the page where our other innovation began to unfold itself slowly, and spread wrong as wide and thin. A cold, lucidly diffrence raked in his soul. The chaos in which his armor extinguished itself was a cold, different knowledge of itself.",
+  "peak_rss_mb": 692.3,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 117.5,
+  "mean_cpu_pct": 53.5,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

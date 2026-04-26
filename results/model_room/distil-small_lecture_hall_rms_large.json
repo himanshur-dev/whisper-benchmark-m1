@@ -1,0 +1,18 @@
+{
+  "model": "distil/small",
+  "room": "lecture_hall",
+  "pipeline": "rms",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.9507,
+  "cer": 0.7625,
+  "rtf": 0.1305,
+  "infer_s": 7.756,
+  "hypothesis": "So, So I'm going to and I'm going to and I'm going to and I'm going So I'm going to see and I'm going to and I'm going to and I'm going to have a lot and a lot So, I'm going to and I'm and I'm and I'm So I'm going to see and I'm going and I'm going to and I'm",
+  "peak_rss_mb": 414.5,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 106.5,
+  "mean_cpu_pct": 54.7,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "large_office",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.5455,
+  "cer": 0.3448,
+  "rtf": 0.9227,
+  "infer_s": 4.812,
+  "hypothesis": "Number 10. fresh angelic ilf in front of you. Good night, Mr.",
+  "peak_rss_mb": 680.7,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 101.0,
+  "mean_cpu_pct": 49.9,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

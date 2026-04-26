@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "small_office",
+  "pipeline": "baseline",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.5455,
+  "cer": 0.5172,
+  "rtf": 0.3494,
+  "infer_s": 1.822,
+  "hypothesis": "Now, pretend fresh and healthy on you. Good night.",
+  "peak_rss_mb": 3996.3,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 97.3,
+  "mean_cpu_pct": 75.9,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

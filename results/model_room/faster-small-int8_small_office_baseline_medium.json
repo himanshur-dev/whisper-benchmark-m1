@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "small_office",
+  "pipeline": "baseline",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.6383,
+  "cer": 0.3058,
+  "rtf": 0.1717,
+  "infer_s": 3.466,
+  "hypothesis": "The music made me hear and recall the words, the words that shuddered the trackers on the moon while they compared us, payable for your risk. The dull light felt a pain be upon the page where all the other equations began to unfold itself slowly and to spread the raw of its widening tale.",
+  "peak_rss_mb": 1194.2,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 796.5,
+  "mean_cpu_pct": 408.2,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

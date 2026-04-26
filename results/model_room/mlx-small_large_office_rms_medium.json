@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "large_office",
+  "pipeline": "rms",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.5319,
+  "cer": 0.2446,
+  "rtf": 0.0296,
+  "infer_s": 0.598,
+  "hypothesis": "The music came here and we recall the words, the words of Shelley's practice, on whom the wandering companion dust, paving for weirdness. The dull light fell profanely upon the page where all other information began to unfold itself slowly, and to spread it wrong into a wide and timid way.",
+  "peak_rss_mb": 422.4,
+  "peak_mps_mb": 560.1,
+  "peak_cpu_pct": 112.0,
+  "mean_cpu_pct": 77.9,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

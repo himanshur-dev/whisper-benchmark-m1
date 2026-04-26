@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "small_office",
+  "pipeline": "baseline",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.5745,
+  "cer": 0.2914,
+  "rtf": 0.1816,
+  "infer_s": 3.666,
+  "hypothesis": "The music made me hear and recall the words, the words of Sheldon's tractors on the moon, luring the panelists, payable for your risk. The dull light fell, a faint day upon the page, where all the other equations began to unfold itself slowly and to spread the raw of its white container.",
+  "peak_rss_mb": 4121.6,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 104.1,
+  "mean_cpu_pct": 66.9,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

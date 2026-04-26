@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "small_office",
+  "pipeline": "rms",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.5957,
+  "cer": 0.295,
+  "rtf": 0.0323,
+  "infer_s": 0.653,
+  "hypothesis": "The music made me hear and recall the words, the words of Sheldon's tractors on the moon, lathering the panacea, paper for your wrist. The dull white felt a pain in the palm of the page, whereon another equation began to unfold itself slowly and to spread it all across wide and thin.",
+  "peak_rss_mb": 658.7,
+  "peak_mps_mb": 657.9,
+  "peak_cpu_pct": 100.2,
+  "mean_cpu_pct": 67.2,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "small_office",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.5455,
+  "cer": 0.5172,
+  "rtf": 0.4116,
+  "infer_s": 2.146,
+  "hypothesis": "Now pretend fresh and healthy on you. Good night.",
+  "peak_rss_mb": 1532.2,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 514.1,
+  "mean_cpu_pct": 370.0,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "small_office",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.2727,
+  "cer": 0.2931,
+  "rtf": 0.1929,
+  "infer_s": 1.006,
+  "hypothesis": "Number 10 Fresh Nelly Cake on You Good Night!",
+  "peak_rss_mb": 872.1,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 97.6,
+  "mean_cpu_pct": 59.0,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "mlx/small",
+  "room": "small_office",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.2727,
+  "cer": 0.2931,
+  "rtf": 0.0599,
+  "infer_s": 0.312,
+  "hypothesis": "Number 10 Fresh Nelly Cake on You Good Night",
+  "peak_rss_mb": 662.9,
+  "peak_mps_mb": 563.4,
+  "peak_cpu_pct": 110.7,
+  "mean_cpu_pct": 63.9,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

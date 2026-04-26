@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "large_office",
+  "pipeline": "baseline",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.507,
+  "cer": 0.2729,
+  "rtf": 0.1498,
+  "infer_s": 8.904,
+  "hypothesis": "He hoped it would be stupid to turn him into some carrots and bruise potatoes and fat mutton pieces to be labeled out in a fit, ever fowl-fat sauce. Stubbity, his belly caught him, and early nightfall, the ill-landed light on the air swelled forth from the brothels. Hello, where did you get the food in your mind? Number 10, Fresh Nelly, is waiting for you. Connect with me. The music may never end, but recall the words, the words of Shelley's fragment, from whom the wandering companion must pale for weirdness. The dull light fell profanely upon the page where our other information began to unfold itself slowly, and to spread it wrong twice a day. A cold, lucidly difference rang in itself. The chaos in which his armor extinguished itself was a coldly different knowledge of itself.",
+  "peak_rss_mb": 1599.6,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 628.4,
+  "mean_cpu_pct": 412.1,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "medium_room",
+  "pipeline": "rms",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.6549,
+  "cer": 0.3794,
+  "rtf": 0.1771,
+  "infer_s": 10.524,
+  "hypothesis": "He, hopefully, will be a student with him, turn him into a carrot and a group of potatoes and a bag of pumpkin pieces to be laid out on a thick, ever-flour-flavoured sauce. Stubbity, his belly comes to him. After the early nightfall, the Edelmansch was wiped out of their pair and swallowed the corner of the brothels. Hello, Bertie. Good morning. Now, Bertie, fresh jelly is made from you. Canachocene, the music made nearer than you would call the words. The words of Shelley's practice on loom, water, and panellists, pale for fear of risk. The dull body felt a thinking on the page where on another equation began to unfold itself slowly and to spread it all its white container. A cold, lucidly diffused grain in itself. The chaos of which is harder to change itself with coldly different knowledge of itself.",
+  "peak_rss_mb": 1576.2,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 667.3,
+  "mean_cpu_pct": 400.7,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

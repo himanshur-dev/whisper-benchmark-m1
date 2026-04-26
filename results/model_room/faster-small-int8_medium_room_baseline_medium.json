@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "medium_room",
+  "pipeline": "baseline",
+  "clip": "medium",
+  "rt60": 2.0,
+  "wer": 0.5319,
+  "cer": 0.3165,
+  "rtf": 0.1585,
+  "infer_s": 3.201,
+  "hypothesis": "The music came nearer as you would call the words, the words of Shelley's practice on moon and water, and the panelists pale for weird reasons. The dull light fell off thinking on the page where on another equation began flowing both itself slowly and spread all its white container.",
+  "peak_rss_mb": 1809.9,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 759.3,
+  "mean_cpu_pct": 414.7,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

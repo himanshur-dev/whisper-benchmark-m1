@@ -1,0 +1,18 @@
+{
+  "model": "faster/small-int8",
+  "room": "large_office",
+  "pipeline": "rms",
+  "clip": "large",
+  "rt60": 2.0,
+  "wer": 0.5423,
+  "cer": 0.3244,
+  "rtf": 0.1574,
+  "infer_s": 9.352,
+  "hypothesis": "He hoped it would be stupid to turn him into some carrots and bruise potatoes and fat mutton pieces to be labeled out in a fit, ever-foul-fat sauce. Stubbity, his belly caught him. After ruining my thought, the ill-landed light on the air swallowed forth from the brothels. Where did he go to lie? Number 10, Fresh Nelly is waiting on you. Connect with me. The music made me regret to recall the words, the words of Sheldon Strachman, from whom the wandering companion was pale for weirdness. The dull light fell authentically upon the page where all the other information began to unfold itself slowly, and to spread it wrong into my head. A cold, lucidly different rank itself. The chaos in which his armor extinguished itself was a cold, different knowledge of itself.",
+  "peak_rss_mb": 1598.6,
+  "peak_mps_mb": 484.0,
+  "peak_cpu_pct": 700.2,
+  "mean_cpu_pct": 411.7,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

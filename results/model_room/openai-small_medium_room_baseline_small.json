@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "medium_room",
+  "pipeline": "baseline",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.9091,
+  "cer": 0.8276,
+  "rtf": 0.7863,
+  "infer_s": 4.101,
+  "hypothesis": "Nada goodluck. Fresh Shank",
+  "peak_rss_mb": 757.7,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 101.2,
+  "mean_cpu_pct": 50.5,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}

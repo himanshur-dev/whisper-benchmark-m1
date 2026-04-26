@@ -1,0 +1,18 @@
+{
+  "model": "openai/small",
+  "room": "medium_room",
+  "pipeline": "rms",
+  "clip": "small",
+  "rt60": 2.0,
+  "wer": 0.5455,
+  "cer": 0.4828,
+  "rtf": 0.2919,
+  "infer_s": 1.522,
+  "hypothesis": "Number 10, Fresh W.A. from U.K. Good night, gentlemen.",
+  "peak_rss_mb": 746.4,
+  "peak_mps_mb": 0.0,
+  "peak_cpu_pct": 110.4,
+  "mean_cpu_pct": 55.7,
+  "peak_gpu_pct": 0,
+  "mean_gpu_pct": 0.0
+}
