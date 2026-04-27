@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "small",
+  "rt60": 2.0,
+  "pipeline": "rms",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "hypothesis": "Number 10, Fresh W.A. from U.K. Good night, gentlemen.",
+  "wer": 0.5455,
+  "cer": 0.4828,
+  "substitutions": 6,
+  "deletions": 0,
+  "insertions": 0,
+  "hits": 5,
+  "ref_word_count": 11,
+  "rtf": 0.1731,
+  "inference_time_s": 0.902,
+  "audio_duration_s": 5.215
+}

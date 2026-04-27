@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "small",
+  "rt60": 0.5,
+  "pipeline": "spectral",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "hypothesis": "Now pretend the fresh bathing is gone, you'll be satisfied! Thanks for watching and please subscribe for new vids.",
+  "wer": 1.6364,
+  "cer": 1.3966,
+  "substitutions": 9,
+  "deletions": 0,
+  "insertions": 9,
+  "hits": 2,
+  "ref_word_count": 11,
+  "rtf": 0.8511,
+  "inference_time_s": 4.438,
+  "audio_duration_s": 5.215
+}

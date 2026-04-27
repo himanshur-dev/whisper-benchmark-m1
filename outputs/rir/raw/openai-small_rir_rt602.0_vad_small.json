@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "small",
+  "rt60": 2.0,
+  "pipeline": "vad",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "hypothesis": "Now for deathrashing templateformu canal",
+  "wer": 1.0,
+  "cer": 0.7759,
+  "substitutions": 5,
+  "deletions": 6,
+  "insertions": 0,
+  "hits": 0,
+  "ref_word_count": 11,
+  "rtf": 0.7599,
+  "inference_time_s": 3.963,
+  "audio_duration_s": 5.215
+}

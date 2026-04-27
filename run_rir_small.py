@@ -26,8 +26,8 @@ from benchmark.sampler import MetricsSampler
 # Config
 # ---------------------------------------------------------------------------
 
-CLIP_PATH = Path("audio/clips/large.wav")
-TRANSCRIPT_PATH = Path("audio/transcripts/large.txt")
+CLIP_PATH = Path("audio/clips/small.wav")
+TRANSCRIPT_PATH = Path("audio/transcripts/small.txt")
 OUTPUT_DIR = Path("outputs/rir")
 SR = 16000
 
