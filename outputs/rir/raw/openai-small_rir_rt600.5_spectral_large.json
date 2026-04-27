@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.32,
+  "clip": "large",
+  "rt60": 0.5,
+  "pipeline": "spectral",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "hypothesis": "He hoped he would be soon returned, turnips, carrots, and bruise, potatoes, and fat and butter pieces to be laid out in thick, peppery, flowered fat and sauce, stuffed into his belly and out again. After early nightfall, the ill-lamped would light up near the fair, and swallow the poor nerve and bronze. Hello, Bertie, are you good in your mind? Now, Bertie, fresh and nelly is waiting on you. Good night, husband. The music came nearer and he would call the words, words of Shelley's frightened, monotone, monotone, and endless pale and bruise. The dull light felt more faintly upon the page, whereon another invasion began to unfold itself slowly and to spread abroad, and his wife continued to co-occurl the music in different strength and soul. The chaos, which is art, extinguishes itself as a formal, different thought itself.",
+  "wer": 0.493,
+  "cer": 0.2901,
+  "substitutions": 50,
+  "deletions": 9,
+  "insertions": 11,
+  "hits": 83,
+  "ref_word_count": 142,
+  "rtf": 0.121,
+  "inference_time_s": 7.189,
+  "audio_duration_s": 59.425
+}

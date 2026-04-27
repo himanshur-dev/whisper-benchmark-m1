@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.34,
+  "clip": "medium",
+  "rt60": 2.0,
+  "pipeline": "rms",
+  "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+  "hypothesis": "The music made me regret even calling the words, the words of Shelley's practice on moon and water, and the panelists' payable curiosity. The dull body felt a faint feeling on the page where on another equation began to fully focus itself slowly and to spread it all its wide contain.",
+  "wer": 0.617,
+  "cer": 0.3561,
+  "substitutions": 24,
+  "deletions": 0,
+  "insertions": 5,
+  "hits": 23,
+  "ref_word_count": 47,
+  "rtf": 0.1093,
+  "inference_time_s": 2.208,
+  "audio_duration_s": 20.19
+}

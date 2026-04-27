@@ -205,7 +205,7 @@ def main():
 
                     rpath.write_text(json.dumps(record, indent=2))
                     print(f"    WER={ev.wer:.3f}  CER={ev.cer:.3f}  RTF={ev.rtf:.2f}  "
-                          f"mem={sys_stats.get('peak_memory_mb', '?'):.0f}MB")
+                          )
 
     print("\nDone.")
 

@@ -90,10 +90,6 @@ def run_one(model, clip_name: str, noise_cfg: dict, steps: list) -> dict:
         "ins":        ev.insertions,
         "rtf":        round(rtf, 3),
         "infer_s":    round(result.inference_time_s, 2),
-        "peak_rss":   stats.get("peak_rss_mb", 0),
-        "peak_mps":   stats.get("peak_mps_mb", 0),
-        "mean_cpu":   stats.get("mean_cpu_pct", 0),
-        "mean_gpu":   stats.get("mean_gpu_pct", 0),
         "hypothesis": result.text,
         "reference":  reference,
         "ref_words":  ev.ref_word_count,
@@ -105,12 +101,12 @@ def print_results(rows: list, title: str):
     print("\n" + "=" * W)
     print(f"  {title}")
     print("=" * W)
-    print(f"{'CLIP':<8} {'DUR':>5} {'WER':>6} {'CER':>6} {'S/D/I':>9} {'RTF':>6} {'RSS':>7} {'MPS':>7} {'GPU':>5}")
+    print(f"{'CLIP':<8} {'DUR':>5} {'WER':>6} {'CER':>6} {'S/D/I':>9} {'INFER':>7} {'RTF':>7}")
     print("-" * W)
     for r in rows:
         sdi = f"{r['subs']}/{r['dels']}/{r['ins']}"
         print(f"{r['clip']:<8} {r['duration']:>4.1f}s {r['wer']:>6.3f} {r['cer']:>6.3f} "
-              f"{sdi:>9} {r['rtf']:>6.3f} {r['peak_rss']:>6.0f}M {r['peak_mps']:>6.0f}M {r['mean_gpu']:>4.0f}%")
+              f"{sdi:>9} {r['infer_s']:>6.1f}s {r['rtf']:>7.3f}x")
     print("-" * W)
     avg_wer = sum(r["wer"] for r in rows) / len(rows)
     avg_rtf = sum(r["rtf"] for r in rows) / len(rows)

@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "large",
+  "snr_db": 5,
+  "pipeline": "spectral",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "hypothesis": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes, and fat mutton pieces to be ladled out, thick peppers and flour-flat sauce. Stuck it into you, his belly counted in. After early nightfall the yellow lamps would light up here and there, the squalid quarter of the brothels. Hello, Bertie, any good in your mind? Number 10. Fresh Nelly is waiting on you. Good night, husband. The music came nearer and he recalled the words, the words of Shelley's frighteness upon the moon's wandering, panipatic pale-for-wearingness. The dull light fell more faintly upon the page, whereon another equation began to unfold itself slowly and spread abroad each wideened chain. A cold, elusive indifference drained in his soul. The chaos in which his ardor extinguished itself was a cold, elusive indifference of knowledge of himself.",
+  "wer": 0.1408,
+  "cer": 0.0906,
+  "substitutions": 16,
+  "deletions": 1,
+  "insertions": 3,
+  "hits": 125,
+  "ref_word_count": 142,
+  "rtf": 0.1239,
+  "inference_time_s": 7.361,
+  "audio_duration_s": 59.425
+}

@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.32,
+  "clip": "large",
+  "rt60": 2.0,
+  "pipeline": "none",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "hypothesis": "He ultimately released the original, turned him into a carrot-scented bruised potato, and in fact, a lot of pieces to be laid out on the thick, ever-floured fat sauce. Stubbity, his belly comes again. After the early nightfall, the apple-landed white-hot beer bear swallows the corner of the raw forest. Hello, Bertie. Good morning. Now, Bertie, fresh and healthy, I've made from you. Can't ask him. The music made me regret even the call to words. The words of Shelley's practice on whom the water had been penniless, pale for fear of risk. The dull body felt a thinking on the page where our own under-equation began to point full itself slowly and to spread raw its white container. A cold, lucidly diffused rain for itself. The chaos which had harder to change itself was coldly different from knowledge itself.",
+  "wer": 0.7324,
+  "cer": 0.4394,
+  "substitutions": 82,
+  "deletions": 8,
+  "insertions": 14,
+  "hits": 52,
+  "ref_word_count": 142,
+  "rtf": 0.1292,
+  "inference_time_s": 7.678,
+  "audio_duration_s": 59.425
+}

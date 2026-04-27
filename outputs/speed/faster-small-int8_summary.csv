@@ -1,0 +1,5 @@
+model,clip,duration_s,inference_time_s,rtf,load_time_s,wer,cer,substitutions,deletions,insertions,ref_word_count
+faster/small-int8,small,5.22,1.927,0.3694,3.52,0.0909,0.1207,0,1,0,11
+faster/small-int8,medium,20.19,2.815,0.1394,3.52,0.0213,0.0072,1,0,0,47
+faster/small-int8,large,59.43,7.79,0.1311,3.52,0.0352,0.0135,4,1,0,142
+faster/small-int8,xlarge,499.0,68.305,0.1369,3.52,0.0378,0.0126,37,6,5,1270

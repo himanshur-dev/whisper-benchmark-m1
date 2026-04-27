@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "small",
+  "rt60": 1.0,
+  "pipeline": "vad",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "hypothesis": "Now for dare, fresh and elvious, wait for my new conat husband.",
+  "wer": 0.9091,
+  "cer": 0.5517,
+  "substitutions": 9,
+  "deletions": 0,
+  "insertions": 1,
+  "hits": 2,
+  "ref_word_count": 11,
+  "rtf": 0.1622,
+  "inference_time_s": 0.846,
+  "audio_duration_s": 5.215
+}

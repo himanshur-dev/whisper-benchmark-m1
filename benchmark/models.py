@@ -10,8 +10,21 @@ Load a model by key:
 
 import time
 from dataclasses import dataclass
+from pathlib import Path
 
+import librosa
 import numpy as np
+
+WARMUP_AUDIO_PATH = Path(__file__).parent.parent / "audio" / "warmup.wav"
+_warmup_audio: np.ndarray | None = None
+
+
+def _load_warmup() -> np.ndarray:
+    global _warmup_audio
+    if _warmup_audio is None:
+        audio, _ = librosa.load(str(WARMUP_AUDIO_PATH), sr=16000, mono=True)
+        _warmup_audio = audio.astype(np.float32)
+    return _warmup_audio
 
 
 @dataclass
@@ -41,6 +54,10 @@ class OpenAIWhisperModel:
         device = _mps_or_cpu()
         self.model = whisper.load_model(size, device=device)
         self.device = device
+        self.warmup()
+
+    def warmup(self):
+        self.transcribe(_load_warmup())
 
     def transcribe(self, audio: np.ndarray, sr: int = 16000) -> TranscriptionResult:
         duration = len(audio) / sr
@@ -57,10 +74,12 @@ class MLXWhisperModel:
         import mlx_whisper
         from huggingface_hub import snapshot_download
         self.hf_repo = hf_repo
-        # Pre-download weights so the first transcribe() call measures only inference,
-        # not a potentially multi-minute HuggingFace download.
         print(f"  Downloading MLX weights: {hf_repo} ...")
         snapshot_download(repo_id=hf_repo)
+        self.warmup()
+
+    def warmup(self):
+        self.transcribe(_load_warmup())
 
     def transcribe(self, audio: np.ndarray, sr: int = 16000) -> TranscriptionResult:
         import mlx_whisper
@@ -75,6 +94,10 @@ class FasterWhisperModel:
     def __init__(self, size: str, compute_type: str = "int8"):
         from faster_whisper import WhisperModel
         self.model = WhisperModel(size, device="cpu", compute_type=compute_type)
+        self.warmup()
+
+    def warmup(self):
+        self.transcribe(_load_warmup())
 
     def transcribe(self, audio: np.ndarray, sr: int = 16000) -> TranscriptionResult:
         duration = len(audio) / sr
@@ -107,6 +130,10 @@ class DistilWhisperModel:
             dtype=dtype,
             device=device,
         )
+        self.warmup()
+
+    def warmup(self):
+        self.transcribe(_load_warmup())
 
     def transcribe(self, audio: np.ndarray, sr: int = 16000) -> TranscriptionResult:
         duration = len(audio) / sr
@@ -131,6 +158,29 @@ MODEL_REGISTRY = {
     "faster/small-int8": lambda: FasterWhisperModel("small", "int8"),
     "distil/small":      lambda: DistilWhisperModel("distil-whisper/distil-small.en"),
 }
+
+
+def unload_model(model) -> None:
+    """
+    Delete a model and flush GPU caches so the next model starts with a clean
+    allocator state. On M1, both PyTorch MPS and MLX draw from unified memory
+    and can conflict if previous weights are not evicted before loading the next
+    model.
+    """
+    import gc
+    del model
+    gc.collect()
+    try:
+        import torch
+        if torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+    except Exception:
+        pass
+    try:
+        import mlx.core
+        mlx.core.metal.clear_cache()
+    except Exception:
+        pass
 
 
 def load_model(key: str):

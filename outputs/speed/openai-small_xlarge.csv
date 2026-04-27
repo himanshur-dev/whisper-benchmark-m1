@@ -1,0 +1,2 @@
+model,clip,duration_s,inference_time_s,rtf,load_time_s,wer,cer,substitutions,deletions,insertions,ref_word_count
+openai/small,xlarge,499.0,47.272,0.0947,4.34,0.0409,0.0151,40,6,6,1270

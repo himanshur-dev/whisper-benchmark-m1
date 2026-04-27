@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "large",
+  "snr_db": 0,
+  "pipeline": "vad",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "hypothesis": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat and mutton pieces to be labeled out in thick, peppered, flour-flavored sauce duffed into him, he'd tell his counsellor in. After early nightfall, the yellow lamps would light up here and there, the squalid quarter of the brothels. Hello, Bertie, any good in your mind? Number 10. Fresh Nelly is waiting on you. Good night, husband. The music came nearer and he recalled the words, the words of Shelley's frighteners upon the mean wandering companions as the tales were hearing us. The dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and spread abroad as widening tales. A cold lucid indifference drained in his soul. The chaos in which his ardor extinguished itself is a cold indifference knowledge of himself.",
+  "wer": 0.1901,
+  "cer": 0.0906,
+  "substitutions": 19,
+  "deletions": 2,
+  "insertions": 6,
+  "hits": 121,
+  "ref_word_count": 142,
+  "rtf": 0.1286,
+  "inference_time_s": 7.641,
+  "audio_duration_s": 59.425
+}

@@ -1,0 +1,17 @@
+model,clip,rt60,pipeline,wer,cer,substitutions,deletions,insertions,hits,ref_word_count,rtf,inference_time_s,audio_duration_s,hypothesis,reference
+openai/small,small,0.2,none,0.0,0.0,0,0,0,11,11,0.1828,0.953,5.215,"Number 10, Fresh Nelly is waiting on you. Good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,0.2,rms,0.0,0.0,0,0,0,11,11,0.1663,0.867,5.215,"Number 10, Fresh Nelly is waiting on you. Good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,0.2,vad,0.0,0.0,0,0,0,11,11,0.1688,0.88,5.215,"Number 10, Fresh Nelly is waiting on you. Good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,0.2,spectral,0.0909,0.0345,1,0,0,10,11,0.1744,0.91,5.215,"Number 10, fresh Nellie is waiting on you. Good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,0.5,none,0.0,0.0,0,0,0,11,11,0.1675,0.873,5.215,"Number 10, fresh Nelly is waiting on you. Good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,0.5,rms,0.0,0.0,0,0,0,11,11,0.1666,0.869,5.215,"Number 10, fresh Nelly is waiting on you. Good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,0.5,vad,0.0,0.0,0,0,0,11,11,0.1679,0.875,5.215,"Number 10, Fresh Nelly is waiting on you. Good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,0.5,spectral,0.8182,0.6207,8,0,1,3,11,0.8757,4.567,5.215,"And Whack That Fresh Noity as Weep on You, Your Nach dalas命annea!",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,1.0,none,0.5455,0.3448,5,0,1,6,11,0.1678,0.875,5.215,"Now for death, fresh and elvious wait on you, good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,1.0,rms,0.5455,0.3448,5,0,1,6,11,0.1619,0.844,5.215,"Now for death, fresh and elvious wait on you, good night, husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,1.0,vad,0.9091,0.5517,9,0,1,2,11,0.1622,0.846,5.215,"Now for dare, fresh and elvious, wait for my new conat husband.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,1.0,spectral,1.4545,0.8793,10,0,6,1,11,0.8308,4.333,5.215,"and now, right on start that's what I'm going to be doing for you nice",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,2.0,none,0.8182,0.6207,2,7,0,2,11,0.912,4.756,5.215,"Number 10, Fresh明白funcaregonna castle",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,2.0,rms,0.5455,0.4828,6,0,0,5,11,0.1717,0.895,5.215,"Number 10, Fresh W.A. from U.K. Good night, gentlemen.",NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,2.0,vad,1.0,0.7069,10,1,0,0,11,0.7153,3.73,5.215,No way I dare. Fresh apologies ribs from you강 NT,NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND
+openai/small,small,2.0,spectral,1.0,0.7931,4,7,0,0,11,0.6031,3.145,5.215,I reflected his strength.,NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND

@@ -1,0 +1,16 @@
+{
+  "model": "mlx/small",
+  "clip": "small",
+  "duration_s": 5.22,
+  "inference_time_s": 0.326,
+  "rtf": 0.0625,
+  "load_time_s": 1.13,
+  "wer": 0.0,
+  "cer": 0.0,
+  "substitutions": 0,
+  "deletions": 0,
+  "insertions": 0,
+  "ref_word_count": 11,
+  "hypothesis": "Number 10. Fresh Nelly is waiting on you. Good night, husband.",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND"
+}

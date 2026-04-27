@@ -1,0 +1,2 @@
+model,clip,duration_s,inference_time_s,rtf,load_time_s,wer,cer,substitutions,deletions,insertions,ref_word_count
+distil/small,medium,20.19,3.105,0.1538,6.19,0.0638,0.0108,2,0,1,47

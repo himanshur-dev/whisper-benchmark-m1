@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "small",
+  "rt60": 2.0,
+  "pipeline": "spectral",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "hypothesis": "I reflected his strength.",
+  "wer": 1.0,
+  "cer": 0.7931,
+  "substitutions": 4,
+  "deletions": 7,
+  "insertions": 0,
+  "hits": 0,
+  "ref_word_count": 11,
+  "rtf": 0.6031,
+  "inference_time_s": 3.145,
+  "audio_duration_s": 5.215
+}

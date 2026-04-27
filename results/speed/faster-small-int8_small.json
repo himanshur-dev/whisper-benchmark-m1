@@ -1,0 +1,16 @@
+{
+  "model": "faster/small-int8",
+  "clip": "small",
+  "duration_s": 5.22,
+  "inference_time_s": 1.927,
+  "rtf": 0.3694,
+  "load_time_s": 3.52,
+  "wer": 0.0909,
+  "cer": 0.1207,
+  "substitutions": 0,
+  "deletions": 1,
+  "insertions": 0,
+  "ref_word_count": 11,
+  "hypothesis": "10. Fresh Nelly is waiting on you. Good night, husband.",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND"
+}

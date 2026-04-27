@@ -256,7 +256,6 @@ def main():
         print(f"  Audio duration:  {original_duration:.2f}s")
         print(f"  Inference time:  {result.inference_time_s:.2f}s")
         print(f"  RTF:             {rtf:.3f}x  ({'faster' if rtf < 1 else 'slower'} than real-time)")
-        print(f"  Peak memory:     {sys_stats.get('peak_memory_mb', '?'):.0f} MB")
         print(f"  Mean CPU:        {sys_stats.get('mean_cpu_pct', '?'):.1f}%")
         print(f"  Mean GPU:        {sys_stats.get('mean_gpu_pct', '?'):.1f}%")
 

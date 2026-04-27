@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "small",
+  "rt60": 0.5,
+  "pipeline": "spectral",
+  "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+  "hypothesis": "And Whack That Fresh Noity as Weep on You, Your Nach dalas\u547dannea!",
+  "wer": 0.8182,
+  "cer": 0.6207,
+  "substitutions": 8,
+  "deletions": 0,
+  "insertions": 1,
+  "hits": 3,
+  "ref_word_count": 11,
+  "rtf": 0.8757,
+  "inference_time_s": 4.567,
+  "audio_duration_s": 5.215
+}

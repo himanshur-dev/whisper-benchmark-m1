@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.32,
+  "clip": "large",
+  "rt60": 2.0,
+  "pipeline": "spectral",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "hypothesis": "We all would have seen this in the first place, we would have seen that in our functions. We would have had power for data, power for power by that call, so that it would be used as a reference. And we really might have thought that we would have to find out how to make a data response for the call. Oh, very good. Good. Good night. Now, correct that. I should tell you a thing from you. Yes, I know. The music became a very powerful word with the word of the show described in the world of intelligence. The world of intelligence. There's a lot of help on anything that you pay for all of that. You can't do it. The whole thing is like selling and spreading it all to the market. The whole music that was playing in the store, the chaos created all of it was so, so, so.",
+  "wer": 1.0282,
+  "cer": 0.6928,
+  "substitutions": 131,
+  "deletions": 0,
+  "insertions": 15,
+  "hits": 11,
+  "ref_word_count": 142,
+  "rtf": 0.2774,
+  "inference_time_s": 16.487,
+  "audio_duration_s": 59.425
+}

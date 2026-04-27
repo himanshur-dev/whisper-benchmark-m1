@@ -1,0 +1,19 @@
+{
+  "model": "openai/small",
+  "model_load_time_s": 3.29,
+  "clip": "large",
+  "snr_db": 0,
+  "pipeline": "spectral",
+  "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE STUFF IT INTO YOU HIS BELLY COUNSELLED HIM AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS HELLO BERTIE ANY GOOD IN YOUR MIND NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+  "hypothesis": "She hoped there would be stew for dinner, turnips and carrots and bruised potatoes, and fat mutton peaches to be ladled out, sticks, peppers, flower fats and sauce. Stuff it into you, eat belly, countenance. After early nightfall, the yellow lamps with light-up here and there were squalor's border of the brothels. Hello, Bertie, any good in your mind? Number 10. Fresh Nelly is waiting on you. Good night, husband. The music came nearer and he recalled the words, the words of Shelly's frightened commonings on the companion's heads, hailed the hearing. The dull light fell more faintly upon the cage, whereon another situation began, one cold itself slowly spread abroad as wide as the sea. A cold elucid indifference ranged in itself. The chaos in which his ardor feeds itself is exposed to different knowledge of itself.",
+  "wer": 0.3239,
+  "cer": 0.1775,
+  "substitutions": 42,
+  "deletions": 2,
+  "insertions": 2,
+  "hits": 98,
+  "ref_word_count": 142,
+  "rtf": 0.1196,
+  "inference_time_s": 7.109,
+  "audio_duration_s": 59.425
+}
